@@ -9,7 +9,6 @@ const generateTarget = () =>{
 
 // compareGuesses() will be used to see whose guess is closer to the target value
 const compareGuesses = (humanGuess, computerGuess, generateTarget) => {
-    // let target= generateTarget();
     let humanGuessDiff = Math.abs(humanGuess - generateTarget);
     let computerGuessDiff = Math.abs(computerGuess - generateTarget);
     if (humanGuessDiff < computerGuessDiff) {
